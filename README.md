@@ -7,5 +7,6 @@
 
 -----
 
-function greet -> greeting people
+### function 'greet()' -> greeting people
 - parameter : name (name of the person)
+- parameter : greeting (default value = 'Hello)

@@ -9,7 +9,8 @@ import random
 print(math.pi)
 print(random.randint(1, 10))
 
-def greet(name):
-    return f'Hello, {name}!'
+def greet(name, greeting='Hello'):
+    return f'{greeting}, {name}!'
+
 print(greet('Alice'))
-print(greet('Bob'))
+print(greet('Bob', 'Hi'))
